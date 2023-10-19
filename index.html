@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condiciones</title>
+</head>
+<style>
+    .inline {
+        display: inline;
+    }
+    .flex {
+        display: flex;
+    }
+    .height {
+        min-height: 200px;
+        min-width: 200px;
+        margin-left: 20px;
+    }
+    #key {
+        background-color: white;
+        border: 2px solid black;
+        min-height: 200px;
+        min-width: 200px;
+        margin-left: 20px;
+    }
+
+</style>
+<body>
+    <div class="flex">
+        <div id="ele1" onclick="changeColor('ele1')" style="background: blue;" class="inline height">1</div>
+        <div id="ele2" onclick="changeColor('ele2')" style="background: red;" class="inline height">2</div>
+        <div id="ele3" onclick="changeColor('ele3')" style="background: green;" class="inline height">3</div>
+        <div id="ele4" onclick="changeColor('ele4')" style="background: yellow;" class="inline height">4</div>
+        <div id="key" >5</div>
+        <div id="ele5" onclick="changeColor('ele5')" style="background: blue;" class="inline height">6</div>
+        <div id="ele6" onclick="changeColor('ele6')" style="background: red;" class="inline height">7</div>
+        <div id="ele7" onclick="changeColor('ele7')" style="background: green;" class="inline height">8</div>
+    </div>
+</body>
+
+<script src="assets/js/script2.js"></script>
+</html>
